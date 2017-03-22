@@ -3,7 +3,7 @@ import os,re,socket,time
 
 s = socket.socket()
 host = ""
-port = 60000
+port = 60001
 
 s.connect((host, port))
 while True:
